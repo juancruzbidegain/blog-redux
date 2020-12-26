@@ -25,8 +25,6 @@ function App() {
     })
   }
 
-
-
   const ponerFilas = () => [ 
     <tr>
       <td>Juan </td>
