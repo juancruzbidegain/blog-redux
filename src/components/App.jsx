@@ -3,6 +3,8 @@ import Menu from "./menu"
 import Usuarios from './usuarios'
 import { BrowserRouter, Route } from 'react-router-dom'
 
+
+
 const Tareas = () => (
   <div id="tareas">Sin tareas por el momento . . .</div>
 )
@@ -11,8 +13,10 @@ const Tareas = () => (
 const App = () => (
   <BrowserRouter className="">
     <Menu />
-    <Route exact path="/" component={Usuarios}  />
-    <Route exact path="/tareas" component={Tareas}  />
+    <div className="margen">
+      <Route exact path="/" component={Usuarios}  />
+      <Route exact path="/tareas" component={Tareas}  />
+    </div>
   </BrowserRouter>
 )     
 

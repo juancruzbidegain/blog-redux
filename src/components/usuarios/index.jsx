@@ -49,7 +49,7 @@ function Usuarios() {
 
 
   return (
-    <div className="margen">
+    <div >
     <table className="tabla">
       <thead>
         <tr>
